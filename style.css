@@ -16,7 +16,7 @@ body{
     width: 100%;
     font-family: 'nunito';
     scroll-behavior: smooth;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 
@@ -65,7 +65,21 @@ nav ul li a{
 }
 
 
+.email{
+  font-size: 20px;
+}
 
+.mail{
+  display: flex;
+  align-items: center;
+  /* margin-top: 80px; */
+}
+
+.mail p{
+font-size: 17px;
+margin-left:10px;
+color: #edeae5;
+}
 
 
 .logo{
@@ -75,7 +89,7 @@ nav ul li a{
 .main-title{
   text-align: center;
   color: #edeae5;
-  margin-top: 120px;
+  margin-top: 150px;
   font-size: 80px;
 
 }
@@ -219,4 +233,21 @@ nav ul li a{
    
    button:hover .button-text {
     color: #204b45;
+   }
+
+
+
+   /* my chair img  */
+.chairimg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+   /* sec- new */
+   .new-sec{
+    height: 100vh;
+    width: 100%;
    }
